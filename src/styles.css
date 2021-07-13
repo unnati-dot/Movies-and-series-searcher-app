@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Benne&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+
+}
+.App{
+    background-color: #0f0f0f;
+    min-height: 250vh;
+    color: white;
+    padding-top: 130px;
+}
+.pagetitle{
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  font-family: "Montserrat",sans-serif;
+  font-size: 2vw;
+  padding: 4px;
+  border-radius: 50px;
+  color: white;
+}
+
+
+@media (max-width:  1000px){
+  .pagetitle{
+    font-size: 6.4vw;
+  }
+}
